@@ -11,12 +11,15 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 
 **c** stands for channel play.
 
+
+/all - start tag all
+/cancel - stop tag all
 /pause or /cpause - Pause the playing music.
 /resume or /cresume- Resume the paused music.
 /mute or /cmute- Mute the playing music.
 /unmute or /cunmute- Unmute the muted music.
 /skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
+/end or /cstop- Stop the playing music.
 /shuffle or /cshuffle- Randomly shuffles the queued playlist.
 /seek or /cseek - Forward Seek the music to your duration
 /seekback or /cseekback - Backward Seek the music to your duration
@@ -132,8 +135,8 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
 
 📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
+/active - Check active voice chats on bot.
+/actvc - Check active video calls on bot.
 /stats - Check Bots Stats
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
@@ -161,7 +164,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /authorized - Check all allowed chats of your bot.
 
 🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+/bcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
 
 <u>options for broadcast:</u>
 **-pin** : This will pin your message 
@@ -170,6 +173,6 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 **-assistant** : This will broadcast your message from assistant account of your bot.
 **-nobot** : This will force your bot to not broadcast message
 
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+**Example:** `/bcast -user -assistant -pin Hello Testing`
 
 """
